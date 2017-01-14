@@ -1,3 +1,3 @@
-# Docker PHP-7 Composer
+# Docker Composer
 
-Docker container with PHP-7 and Composer based on php:7-alpine image.
+Docker container with Composer package manager install. The image is based on php:7-alpine image.
