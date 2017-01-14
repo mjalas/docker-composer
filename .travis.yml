@@ -6,7 +6,7 @@ services:
 
 script:
     - docker build -t mjalas/composer .
-    - docker run --name composer --rm mjalas/composer /bin/bash -c "echo Done!"    
+    - docker run --name composer --rm mjalas/composer /bin/sh -c "echo Done!"    
 
 after_success:
     - if [ "$TRAVIS_BRANCH" == "master" ]; then
